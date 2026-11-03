@@ -1,0 +1,15 @@
+{
+  "name": "smart-attendance-system",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:win": "node scripts/dev.js",
+    "backend": "npm --prefix backEnd run dev",
+    "frontend": "npm --prefix frontEnd run dev -- --host 0.0.0.0 --port 5173",
+    "build": "npm --prefix frontEnd run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

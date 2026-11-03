@@ -1,0 +1,25 @@
+const DEFAULT_SHIFT_SETTINGS = Object.freeze({
+  startHour: 8,
+  startMinute: 30,
+  gracePeriod: 5,
+  endHour: 17,
+  endMinute: 30,
+  lunchEnabled: true,
+  lunchStartHour: 12,
+  lunchStartMinute: 30,
+  lunchDuration: 60,
+  beforeLunchStartHour: 8,
+  beforeLunchStartMinute: 30,
+  beforeLunchEndHour: 12,
+  beforeLunchEndMinute: 30,
+  afterLunchStartHour: 13,
+  afterLunchStartMinute: 30,
+  afterLunchEndHour: 17,
+  afterLunchEndMinute: 30,
+  timeZone: 'Africa/Addis_Ababa',
+  timeFormat: '24-hour',
+  notifyCheckIn: true,
+  notifyCheckOut: true,
+});
+
+module.exports = { DEFAULT_SHIFT_SETTINGS };
